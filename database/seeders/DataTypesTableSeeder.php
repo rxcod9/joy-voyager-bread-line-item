@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'line_items',
                 'display_name_singular' => __('joy-voyager-bread-line-item::seeders.data_types.line_item.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-line-item::seeders.data_types.line_item.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-line-item voyager-anchor',
                 'model_name'            => 'Joy\\VoyagerBreadLineItem\\Models\\LineItem',
                 // 'policy_name'           => 'Joy\\VoyagerBreadLineItem\\Policies\\LineItemPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadLineItem\\Http\\Controllers\\VoyagerBreadLineItemController',
