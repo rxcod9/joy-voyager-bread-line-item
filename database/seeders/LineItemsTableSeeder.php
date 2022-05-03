@@ -18,7 +18,7 @@ class LineItemsTableSeeder extends Seeder
             return false;
         }
 
-        $count = 100;
+        $count = 20;
         LineItem::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
