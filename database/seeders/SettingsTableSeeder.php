@@ -12,7 +12,7 @@ class SettingsTableSeeder extends Seeder
      */
     public function run()
     {
-        $setting = $this->findSetting('line_item.key1');
+        $setting = $this->findSetting('lineitem.key1');
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('joy-voyager-bread-line-item::seeders.settings.line_item.key1'),
@@ -24,7 +24,7 @@ class SettingsTableSeeder extends Seeder
             ])->save();
         }
 
-        $setting = $this->findSetting('line_item.image');
+        $setting = $this->findSetting('lineitem.image');
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('joy-voyager-bread-line-item::seeders.settings.line_item.image'),
